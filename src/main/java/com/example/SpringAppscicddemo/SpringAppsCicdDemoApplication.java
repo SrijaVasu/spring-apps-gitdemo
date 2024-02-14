@@ -11,7 +11,7 @@ public class SpringAppsCicdDemoApplication {
 
 	@GetMapping("/message")
 	public String message () {
-		return "Successfully deploed to Azure Spring apps";
+		return "Successfully deployed the application to Azure Spring apps with Github Actions";
 	}
 	
 	public static void main(String[] args) {
